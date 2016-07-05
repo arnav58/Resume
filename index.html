@@ -57,12 +57,12 @@
 
 <body>
 	<!-- Preloader -->
-	<div id="tt-preloader">
+	<!-- <div id="tt-preloader">
 		<div id="pre-status">
 			<div class="preload-placeholder"></div>
 		</div>
 	</div>
-
+ -->
 	<!-- Home Section -->
 	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
 		<div class="intro">
@@ -97,8 +97,8 @@
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand" href="index.html"><!--<img src="assets/images/" alt=""></a>-->
 				</div>
@@ -409,22 +409,22 @@
             <div class="skill-progress">
               <div class="skill-title"><h3>HTML5/CSS3</h3></div> 
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->
 
             <div class="skill-progress">
-              <div class="skill-title"><h3>JS/jQuery</h3></div> 
+              <div class="skill-title"><h3>JS/jQuery<br>/Bootstrap</h3></div> 
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" ><span>60%</span>
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->
             <div class="skill-progress">
               <div class="skill-title"><h3>C++/Java</h3></div>  
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>60%</span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" ><span>85%</span>
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->
@@ -496,12 +496,12 @@
               <div class="chart" data-percent="75" data-color="3498db">
                     <span class="percent"></span>
                     <div class="chart-text">
-                      <span>Bootstrap</span>
+                      <span>OOP</span>
                     </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent=90" data-color="3498db">
+              <div class="chart" data-percent="90" data-color="3498db">
                     <span class="percent"></span>
                     <div class="chart-text">
                       <span>Compiler<br>Design</span>
@@ -513,147 +513,192 @@
       </div><!-- /.container -->
     </section><!-- End Skills Section -->
 
-     <!-- Works Section-->
-    <section id="works" class="works-section section-padding">
-      <div class="container">
-        <h2 class="section-title wow fadeInUp">Works</h2> 
+     <!-- Projects Section-->
+    <section id="resume" class="resume-section section-padding">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp">Projects</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li>
+                                <div class="posted-date">
+                                    <span class="month">April'16</span>
+                                </div><!-- /posted-date -->
 
-        <ul class="list-inline" id="filter">
-            <li><a class="active" data-group="all">All</a></li>
-            <li><a data-group="design">Design</a></li>
-            <li><a data-group="web">Web</a></li>
-            <li><a data-group="interface">Interface</a></li>
-            <li><a data-group="identety">Identity</a></li>
-        </ul>
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Tesk</h3>
+                                            <span>Angel Hack</span>
+                                        </div><!-- /timeline-heading -->
 
-        <div class="row">
-          <div id="grid">
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "interface"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-1.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-1.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info -->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
-            </div><!-- /.portfolio-item -->
+                                        <div class="timeline-body">
+                                            <p>Built a distraction free text editor within 24 hours.
+                                            <br>To check out the Tesk website, <a class="link" target="_blank" href="https://arnav58.github.io/Tesk">Click Here</a>
+                                              <br>
+                                              <br><h6>Description</h6>
+                                              The idea was to keep the editor free from toolbars clogging the users view and clean so that he can focus on the text without having to look for different text editing tools.
+                                              <br>The editor makes the tools hover over the text once it is selected, else, remains invisible.
+                                              <br>It also allows you to dictate to it as it uses Google Speech to Text APIs to transcribe your speech to near perfection.
+                                              <br>Going forward, the Tesk team plans to add scripts to this project which would remove the crutch words from the speech it transcribed (eg: words like like/ah/um in speech). 
+                                              <br>We are also working on trying to understand the transcribed text and format it to make it sound more impressive.
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
 
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                    <span class="month">Jan'16 - May'16</span>
+                                </div><!-- /posted-date -->
 
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "web"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-2.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-2.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info -->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
-            </div><!-- /.portfolio-item -->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "interface"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-3.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-3.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info--> 
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg-->
-            </div><!-- /.portfolio-item-->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-4.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-4.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info--> 
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg-->
-            </div><!-- /.portfolio-item-->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-5.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-5.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info-->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg-->
-            </div><!-- /.portfolio-item-->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-6.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-6.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info-->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg-->
-            </div><!-- /.portfolio-item-->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "web"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-7.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-7.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info-->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg-->
-            </div><!-- /.portfolio-item-->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "design"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-8.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links-->
-                  <img src="assets/images/works/portfolio-8.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info--> 
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
-            </div><!-- /.portfolio-item -->
-          </div><!-- /#grid -->
-        </div><!-- /.row -->
-      </div><!-- /.container--> 
-    </section><!-- End Works Section-->
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Privacy Preserving Data Mining</h3>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                          <br>
+                                            <p>The project is built around the scenario where two or more banks are merging their data to analyse what types of insurances sell more often and with what premium.
+                                              <br>Considering the bank data consists of sensitive customer information which the bank might not want to reveal to the other participating banks, privacy preservation was a necessity.
+                                              <br>This project first pre processes the bank dataset provided, hides the sensitive data using k-Anonimity and Gaussian Noise and then uses Apriori algorithm to generate the frequent itemsets from the data.
+                                              <br>Using the generated itemsets, the managers/data analysts can infer what type of insurance sells more often and what age-group they should target with a particular insurance scheme.
+                                              <br>It also helps them decide what the ideal premium amount should be for each type of insurance.
+                                              <br>To access the code repository, <a class="link" target="_blank" href="https://github.com/arnav58/PrivacyPreservingDataMining">Click Here</a>.
+                                              <br><br>Wrote python scripts to perform the tasks.
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">Aug'15 - Dec'15</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Dead code removal</h3>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>
+                                            <br>
+                                              Built a compiler which like an IDE, kept track of all the variables in a particular piece of code and checks if they were initialized properly or initialized but not used.
+                                              <br>Once compiled, it returns all the flags set and tells the user about the uninitialized or unused variables.
+                                              <br>This helps the user write an error free, memory optimum code.
+                                              <br><br>Used bison, lex and yacc packages to complete the project.
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                    <span class="month">Aug'15 - Dec'15</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Mood Lamp</h3>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                          <br>
+                                            <p>
+                                              Built a color temperature mood lamp using hardware components like Microcontroller Development Board, ADC, Temperature sensors, RGB LEDs etc.
+                                              <br>The Mood Lamp sensed the temperature and produced a color according to the range the temperature falls in.
+                                              <br>Coded the 8051 Microcontroller to perform conversions and assign value to the RGB LEDs.
+                                              <br><br>Wrote the code in 8051 Assembly Language.
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">October'15</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>FlickSort</h3>
+                                            <span>Code.Fun.Do, Microsoft Hackathon</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>
+                                              Built a Windows Desktop Application which allowed the user to select a movie folder on their PC, acquired the movie names using regex, queried the IMDb server for each movie name found and got a response in JSON format and then based on the response, arranged the movies in decreasing order of IMDb ratings. It also displayed a short synopsis and the cast of the movie to the user.
+                                              <br>Going forward, we plan to implement machine learning and suggest movies to the user based on the movies he watches to improve the user experience.
+                                              <br><br>Made the application using C#, Visual Studios.
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                    <span class="month">Jan'15 - May'15</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Event Management System</h3>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                          <br>
+                                            <p>
+                                              Built an Event Management System as a part of my Database Management Systems Lab.
+                                              <br>Designed a relational database to store different types of information specific to the Events.
+                                              <br>Built a Windows Desktop Application and connected the database to it, implementing different queries specific to each page and button functionalities.
+                                              <br><br>Made the application using C#, Visual Studios and SQL.
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">Jan'15 - May'15</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Investment Management System</h3>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>
+                                            <br>
+                                              Built a Java Swing application which allowed the user to monitor his favorite shares and decide whether he wants to buy any particular shares based on their performance.
+                                              <br>It could also be used by mediators to handle multiple customers and their shares.
+                                              <br><br>Made the application using Java Swings.
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /.container -->
+    </section>
 
 
 
@@ -663,7 +708,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2>Available for freelance project</h2>
+              <h2>Available for hire</h2>
               <a href="#" class="btn btn-default">Hire Me</a>
             </div><!-- /.col-md-12 -->
           </div><!-- /.row -->
