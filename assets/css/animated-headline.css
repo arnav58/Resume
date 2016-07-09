@@ -66,12 +66,12 @@ time, mark, audio, video {
 .tt-words-wrapper b {
   display: inline-block;
   position: absolute;
-  white-space: nowrap;
   left: 0;
   right: 0;
   top: 0;
+
   font-weight: 800;
-  text-transform: uppercase;
+
 }
 .tt-words-wrapper b.is-visible {
   position: relative;
